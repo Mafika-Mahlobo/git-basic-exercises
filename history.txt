@@ -1,0 +1,371 @@
+    1  git --version
+    2  git config --global user.name "mafika mahlobo"
+    3  git config --global user.email rudolphmafika@gmail.com
+    4  git config --global core.editor "code --wait"
+    5  git config --global -e
+    6  git config --global core.autocrlf true
+    7  git config --global -e
+    8  makdir c:\users\cash\desktop\gitlearn
+    9  mkdir c:\users\cash\desktop\gitlearn
+   10  cd gitlearn
+   11  ls
+   12  mkdir moon
+   13  cd moon
+   14  cd..
+   15  clear
+   16  git init
+   17  ls
+   18  ls -a
+   19  open .git
+   20  cd .git
+   21  open .git
+   22  Open .git
+   23  git config -h
+   24  start .git
+   25  cd .git
+   26  ls
+   27  cd..
+   28  cd~
+   29  cd
+   30  cd moon
+   31  ls
+   32  start .git
+   33  clear
+   34  echo hello > file1.txt
+   35  echo hello > file2.txt
+   36  git status
+   37  git add file1.txt file2.txt
+   38  git status
+   39  clear
+   40  echo world! >> file1.txt
+   41  git status
+   42  git add file1.txt
+   43  git status
+   44  clear
+   45  git commit
+   46  exit
+   47  cd desktop
+   48  ls
+   49  exit
+   50  ls
+   51  cd..
+   52  cd moon
+   53  git init
+   54  cd .git -f
+   55  cd git
+   56  ls
+   57  ls -a
+   58  start .git
+   59  mkdir hrllo.html
+   60  ls
+   61  echo my html > hrllo.html
+   62  git status
+   63  rm hrllo.html
+   64  start hrllo.html
+   65  ls
+   66  echo hi > hello.html
+   67  git status
+   68  add *.html
+   69  git add *.html
+   70  ls
+   71  status
+   72  git status
+   73  rm hello.html
+   74  ls
+   75  git status
+   76  git add hello.html
+   77  git status
+   78  clear
+   79  git commit "deleted html file."
+   80  git commit
+   81  echo another line of code > file1.txt
+   82  git status
+   83  git add file1.txt
+   84  git commit -m "added a line to file 1"
+   85  git status
+   86  clear
+   87  echo test >> file1.txt
+   88  commit -a -m "fixed the bug"
+   89  git commit -a -m "fixed the bug"
+   90  rm file2.txt
+   91  git status
+   92  git ls-files
+   93  git add file2.txt
+   94  git status
+   95  git ls-files
+   96  commit -m ""remove file 2"
+   97  clear
+   98  cd moon
+   99  ls
+  100  git ls-files
+  101  gis tatus
+  102  git status
+  103  commit -m "removed file 2"
+  104  git commit -m "removed file 2"
+  105  git status
+  106  start file1.txt
+  107  ls
+  108  mv file1.txt main.js
+  109  git status
+  110  git add file1.txt
+  111  git add main.ja
+  112  git add main.js
+  113  git status
+  114  git mv main.js file1.js
+  115  git status
+  116  git ls-files
+  117  git status
+  118  git commit -m "refactor code"
+  119  mkdir logs
+  120  echo hello > dev.log
+  121  git status
+  122  echo logs/ > .gitignore
+  123  code .gitignore
+  124  git status
+  125  git commit -am "added gitignore"
+  126  git add .gitignore
+  127  git commit -m "added gitignore"
+  128  cd moon
+  129  git ls-files
+  130  mkdir bin
+  131  echo hello > bin/app.bin
+  132  commit -am bin/app.bin "added bin"
+  133  git commit -am bin/app.bin "added bin"
+  134  git commit  -m bin/app.bin "added bin"
+  135  git add .
+  136  git commit -m "added bin"
+  137  start gitignore
+  138  git status
+  139  git ls-files
+  140  start .gitignore
+  141  code .gitignore
+  142  git status
+  143  git add .
+  144  git commit -m "add bin to gitignore"
+  145  echo another text to app > bin/app.bin
+  146  git status
+  147  git ls-files
+  148  clear
+  149  git rm --cached bin/
+  150  git rm --cached -r bin/
+  151  git ls-files
+  152  git status
+  153  git commit -m "remove bin/ from stagging area"
+  154  cleár
+  155  clear
+  156  echo test >bin/app.bin
+  157  git status
+  158  exit
+  159  cd moon
+  160  git status
+  161  ls
+  162  cbin
+  163  cd bin
+  164  ls
+  165  ls..
+  166  cd..
+  167  exi't
+  168  exit
+  169  cd moon
+  170  ls
+  171  git status
+  172  echo sky > file1.js
+  173  echo sky > file2.js
+  174  git status
+  175  git status -s
+  176  git add file1.js
+  177  git status -s
+  178  echo oceon > file1.js
+  179  stauts -s
+  180  git status -s
+  181  git add file1.js
+  182  git status -s
+  183  git add file2.js
+  184  git status -s
+  185  git diffe --staged
+  186  git diff --staged
+  187  git diff
+  188  git status -s
+  189  code file1
+  190  ls
+  191  code file1.js
+  192  code file2.js
+  193  code file1.js
+  194  got status -s
+  195  git status -s
+  196  git diff
+  197  git add file1.js
+  198  git status -s
+  199  git diff
+  200  git diff --staged
+  201  git config global diff.tool vscode
+  202  git config --global diff.tool vscode
+  203  git confif --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+  204  git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+  205  git config --global -e
+  206  git difftool
+  207  git difftool staged
+  208  git difftool --staged
+  209  git log
+  210  git log --oneline
+  211  git log --oneline --reverse
+  212  git show 00ad8f1
+  213  git show HEAD~2
+  214  git show HEAD~2:.gitignore
+  215  git ls-tree DEAD
+  216  git ls-tree HEAD
+  217  git show 431208
+  218  git show c2c6
+  219  git --version
+  220  git restore --staged file2.js
+  221  git -h
+  222  git -help
+  223  git --help
+  224  git reset --soft file2.js
+  225  git log --online
+  226  git log --oneline
+  227  git reset --3d70
+  228  git reset --soft HEAD~6
+  229  git status
+  230  git status -s
+  231  git reset HEAD file2.js
+  232  git status -s
+  233  code file1.txt
+  234  code file1.txt --wait
+  235  git status -s
+  236  git restore file1.txt
+  237  git reset HEAD  file1.txt
+  238  git status -s
+  239  git clean
+  240  git clean -h
+  241  git clean --fd
+  242  git clean -fd
+  243  git status -s
+  244  git add file1.txt
+  245  git status -s
+  246  rm file1.txt
+  247  ls
+  248  rm file1.js
+  249  ls
+  250  git status
+  251  git show
+  252  git show --staged
+  253  git diff --staged
+  254  git commit -m "delete file1.js"
+  255  git log --oneline
+  256  git restore -h
+  257  git reset -h
+  258  git reset HEAD~1 file1.js
+  259  git status
+  260  ls
+  261  éxit
+  262  ls
+  263  cd users
+  264  ls
+  265  pwd
+  266  cd desktop/Umizi Bootcamp
+  267  cd desktop
+  268  ls
+  269  cd 'Umuzi Bootcamp'
+  270  ls
+  271  mkdir git-basic-exercises
+  272  ls
+  273  cd git-basic-exercises
+  274  ls
+  275  ls -a
+  276  ls -l
+  277  git init
+  278  ls
+  279  ls -a
+  280  ls -a
+  281  l
+  282  ls -s
+  283  lclear
+  284  clear
+  285  git status
+  286  git stauts -s
+  287  git status -s
+  288  clear
+  289  touch README.md
+  290  ls -a
+  291  git status
+  292  git status -s
+  293  clear
+  294  git log
+  295  git add README.md
+  296  git status
+  297  git status -s
+  298  git rm --cached README.md
+  299  git status
+  300  git add README.md
+  301  git status -s
+  302  clear
+  303  git commit -m "initial commit"
+  304  git status -s
+  305  git status
+  306  clear
+  307  git log
+  308  q
+  309  clear
+  310  nano README.md
+  311  cat README.md
+  312  git status
+  313  git add README.md
+  314  git status
+  315  git commit -m "second commit"
+  316  git status
+  317  git log
+  318  nano README.md
+  319  cat README.md
+  320  git status
+  321  git add README.md && git status
+  322  git commit -m "third commit" && git status -s
+  323  git status -s
+  324  git status
+  325  clear
+  326  git log
+  327  clear
+  328  q
+  329  git checkout 9f804462b0196f046d2be3cbcfd5743f5aeee784
+  330  cat README.md
+  331  git checkout main
+  332  cat README.md
+  333  clear
+  334  q
+  335  git checkout
+  336  git checkout master
+  337  git branch
+  338  clear
+  339  git branch milkshake-flavours
+  340  git branch
+  341  git checkout milkshake-flavours
+  342  git branch
+  343  git checkout master
+  344  git branch
+  345  clear
+  346  git branch milkshake-flavours
+  347  branch
+  348  git branch
+  349  clear
+  350  git checkout milkshake-flavours
+  351  nano milkshakes.md
+  352  cat milkshakes
+  353  ls
+  354  clear
+  355  cat milkshakes.md
+  356  git status
+  357  git checkout master
+  358  git status
+  359  git checkout milkshake-flavours
+  360  ls
+  361  clear
+  362  git add milkshakes.md
+  363  git commit -m "added initial flavours"
+  364  git log
+  365  git checkout master
+  366  git log
+  367  git branch history
+  368  git checkout history
+  369  git log
+  370  git branch
+  371  history > history.txt
